@@ -1,5 +1,5 @@
 pandas
-plotly
+tkintermapview
 matplotlib
 pyproj
 numpy
