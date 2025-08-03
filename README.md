@@ -17,7 +17,7 @@ To run this application, you need to have the following Python packages installe
 
 - pandas
 - matplotlib
-- plotly
+- tkintermapview
 - pyproj
 - numpy
 
@@ -88,9 +88,15 @@ A button "1Y" has been added to the toolbar to force the use of a single Y axis 
 
 ### Display 2D GPS Data
 
-Provided that "GPS.Latitude" and "GPS.Longitude" columns exist in the data after import, this function displays the GPS track over an Open Street Map image of the geographic area. Hovering the mouse near the top right corner shows a number of options for, e.g., changing the zoom level.
+Provided that "GPS.Latitude" and "GPS.Longitude" columns exist in the data after import, this function displays the GPS track over a terrain image of the geographic area. Zoom + and - buttons are provided.
 
-![2D GPS Data](images/plot2dgps.png)
+The terrain image can be Open Street Map:
+
+![2D GPS Data on OSM](images/plot2dgps.png)
+
+Google satellite imagery can also be selected:
+
+![2D GPS Data on Satellite Imagery](images/plot2dgps_googlesatellite.png)
 
 ### Display 3D GPS Data
 
@@ -108,4 +114,4 @@ This function uses the "Create KML File" function to export a file "temp.kml" co
 
 ## License
 
-This project is licensed under the MIT License. See the Licence.txt file for more details.
+This project is licensed under the MIT License. See the LICENSE file for details.
